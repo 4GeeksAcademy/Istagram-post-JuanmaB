@@ -1,0 +1,70 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin: 0;
+    font-family: roboto;
+}
+
+.post {
+    width: 400px;
+    background-color: white; 
+    border-radius: 10px; 
+    overflow: hidden;
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.icon-html5 {
+    font-size: 40px;
+    margin-right: 10px;
+}
+
+.text {
+    flex-grow: 1;
+}
+
+.text h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.text p {
+    margin: 0;
+    font-size: 14px;
+    }
+
+.menu-icon {
+    font-size: 30px;
+}
+
+.post img {
+    width: 100%;
+}
+
+.post-icons {
+    margin-left: 10px;
+    font-size: 30px;
+    margin-top: 10px;
+    display: flex;
+    margin-right: 5px;
+    }
+
+.post-icons i {
+        margin-right: 10px;
+    }
+
+.move-right {
+    margin-left: auto;
+}
+
+.post-body {
+    margin-left: 10px;
+    margin-right: 10px;
+}
